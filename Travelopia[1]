@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" crossorigin="anonymous"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="Function.js"></script>
+  <style>
+    .top-nav{
+        text-align: center;
+    }
+    .image{
+        background-image: url('./images/image3.webp');
+        height: 80vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+    }
+    .img-txt{
+        text-align: center;
+    }
+    .card-body{
+        height: 100px;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(221, 215, 207);
+        padding: 30px;
+    }
+    button{
+        height: 30px;
+        width: 300px;
+        background-color: rgb(191, 195, 197);
+    }
+    footer{
+        text-align: center;
+    }
+    </style>
+
+  <title>Travelopia</title>
+  </head>
+<body>
+    <nav class="top-nav">
+        <p>Request your free brochure for adventure inspiration. <a href ="#" class="order">Order Now &rarr;</a></p>
+      </nav>
+    
+      <nav class="main">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="title"><b>EXODUS</b></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="Destinations.html"><b>Destinations</b> </a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>Activities</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>Ways to Travel</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>Offers</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>Late Getaways</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b>Sustainable Travel</b></a>
+              </li>
+              <hr>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <div class="contact">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="margin-left: 500px;">
+                  <button type="button" class="btn btn-primary">CONTACT</button>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                  </svg>
+                </div>
+              </form>
+          </div>
+        </nav>
+        <div class="text">
+        <div class="image">
+    <h1 class= "img-txt"><b>EUROPE TOURS</b></h1>
+    <p class= "img-txt"><b>An outdoor playground filled with fairytale castles, fascinating cities and ancient traditions</b></p>
+    </div>
+</div>
+    </nav>
+  <br> <br>
+  <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <section id="home">
+                <h1 class="heading"><b>Discover our Europe tours</b></h1>
+                <p class="para">Adventure awaits, right on your doorstep! With so many cultures and countries just a short flight
+                  away, our unique Europe tours offer far more than you could imagine. 
+                  <br>
+                  From glorious summers spent relaxing on beaches or exploring historic towns, to snowy winters
+                  spent on the slopes or sipping hot chocolate by the fire, our adventure holidays in Europe are designed to keep
+                  you entertained and captivated, season by<span id="dots">...</span> <span id="more"> season.<br>
+          
+                  Stretching from the countries of the former USSR to the Atlantic islands of Iceland and Greenland,
+                  Europe is one of the planet’s most beautifully diverse regions on the planet. Explore a new culture, delve into
+                  ancient ruins, or make new friends on an action-packed adventure: our trips to Europe let you see and experience
+                  it all.<br>
+          
+                  Start building your dream trip, with our expert local guides, and choose by destination or type of
+                  activity. Whether you want to travel to Italy, Spain, Croatia, Portugal or Greece, each country or region has
+                  its own unique offering, and is sure to be an incredible adventure.</span></p>
+          
+                  <button onclick="myFunction()" id="myBtn"><b>Show more &#8595;</b></button>
+            </section><br>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Call for general departures:</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="card-link"><b>02039932193</b></a>
+                  </div>
+            </div>
+            <br>
+            <div class="form">
+            <form>
+                <label><b>DESTINATION</b></label><br>
+                <input type="text" placeholder="Destination"><br>
+                <label><b>DEPARTURE DATE</b></label><br>
+                <input type="date" placeholder="dd/mm/yyyy"><br>
+                <label><b>NUMBER OF PASSENGERS</b></label><br>
+                <select name="passengers" id="passengers" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5+">5+</option>
+                </select><br>
+                <label><b>MESSAGE</b></label><br>
+                <input type="textarea" placeholder="How Can we help you?" style="height: 150px;width: 300px;"><br>
+                <br>
+                <button>Next</button>
+            </form>
+        </div>
+          </div>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+
+
+<br>
+
+</main>
+
+  <footer>
+    <p><b>2024 Trailblazer Event: Book Today and Enjoy Great Savings! <u>View more here.</u></b></p>
+  </footer>
+
+</body>
+
+</html>
